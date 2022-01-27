@@ -1,0 +1,32 @@
+body{
+	font-family: 'poppins', sans-serif;
+	background-color: red;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.logo{
+	display: flex;
+	margin-right: 150px;
+}
+
+.logo img{
+	width: 60px;
+	object-fit: cover;
+	margin-right: 22px;
+}
+
+/*Buttin*/
+.btn a{
+	color: black;
+	background-color: #39A2DB;
+	text-decoration: none;
+}
